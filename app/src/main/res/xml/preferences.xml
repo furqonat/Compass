@@ -54,48 +54,48 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory
-            app:key="about_category"
-            app:title="@string/about"
-            app:icon="@drawable/ic_about">
+<!--    <PreferenceCategory-->
+<!--            app:key="about_category"-->
+<!--            app:title="@string/about"-->
+<!--            app:icon="@drawable/ic_about">-->
 
-        <Preference
-                app:key="author"
-                app:title="@string/author"
-                app:summary="@string/author_name">
-            <intent
-                    android:action="android.intent.action.VIEW"
-                    android:data="mailto:philipp.bobek@mailbox.org" />
-        </Preference>
+<!--        <Preference-->
+<!--                app:key="author"-->
+<!--                app:title="@string/author"-->
+<!--                app:summary="@string/author_name">-->
+<!--            <intent-->
+<!--                    android:action="android.intent.action.VIEW"-->
+<!--                    android:data="mailto:philipp.bobek@mailbox.org" />-->
+<!--        </Preference>-->
 
-        <Preference
-                app:key="license"
-                app:title="@string/license"
-                app:summary="@string/license_name">
-            <intent
-                    android:action="android.intent.action.VIEW"
-                    android:data="https://www.gnu.org/licenses/gpl-3.0.txt" />
-        </Preference>
+<!--        <Preference-->
+<!--                app:key="license"-->
+<!--                app:title="@string/license"-->
+<!--                app:summary="@string/license_name">-->
+<!--            <intent-->
+<!--                    android:action="android.intent.action.VIEW"-->
+<!--                    android:data="https://www.gnu.org/licenses/gpl-3.0.txt" />-->
+<!--        </Preference>-->
 
-        <Preference
-                app:key="third_party_licenses"
-                app:summary="@string/third_party_licenses_summary"
-                app:title="@string/third_party_licenses" />
+<!--        <Preference-->
+<!--                app:key="third_party_licenses"-->
+<!--                app:summary="@string/third_party_licenses_summary"-->
+<!--                app:title="@string/third_party_licenses" />-->
 
-        <Preference
-                app:key="source_code"
-                app:title="@string/source_code"
-                app:summary="@string/source_code_name">
-            <intent
-                    android:action="android.intent.action.VIEW"
-                    android:data="https://github.com/Kr0oked/Compass" />
-        </Preference>
+<!--        <Preference-->
+<!--                app:key="source_code"-->
+<!--                app:title="@string/source_code"-->
+<!--                app:summary="@string/source_code_name">-->
+<!--            <intent-->
+<!--                    android:action="android.intent.action.VIEW"-->
+<!--                    android:data="https://github.com/Kr0oked/Compass" />-->
+<!--        </Preference>-->
 
-        <Preference
-                app:key="version"
-                app:title="@string/version"
-                app:selectable="false" />
+<!--        <Preference-->
+<!--                app:key="version"-->
+<!--                app:title="@string/version"-->
+<!--                app:selectable="false" />-->
 
-    </PreferenceCategory>
+<!--    </PreferenceCategory>-->
 
 </PreferenceScreen>

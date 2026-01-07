@@ -26,6 +26,7 @@ import android.os.Bundle
 import android.util.Log
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.app.AppCompatDelegate.setDefaultNightMode
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
@@ -72,7 +73,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setNightMode(appNightMode: AppNightMode) {
         Log.d(TAG, "Setting night mode to $appNightMode")
-        setDefaultNightMode(appNightMode.systemValue)
+        setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
     }
 
     private fun setScreenRotationMode(screenOrientationLocked: Boolean) {
