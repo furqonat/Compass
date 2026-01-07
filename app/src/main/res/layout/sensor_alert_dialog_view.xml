@@ -69,7 +69,7 @@
 
         <variable
                 name="model"
-                type="com.bobek.compass.view.CompassViewModel" />
+                type="id.hankamrata.compass.view.CompassViewModel" />
     </data>
 
 </layout>

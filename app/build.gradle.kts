@@ -30,15 +30,15 @@ java {
 }
 
 android {
-    namespace = "com.bobek.compass"
+    namespace = "id.hankamrata.compass"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.bobek.compass"
+        applicationId = "id.hankamrata.compass"
         minSdk = 23
         targetSdk = 36
-        versionCode = 31
-        versionName = "1.14.11"
+        versionCode = 1
+        versionName = "1.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
